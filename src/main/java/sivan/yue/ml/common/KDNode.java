@@ -7,7 +7,8 @@ import java.util.Vector;
  */
 public class KDNode {
     public int position;
-    public Vector<Integer> x;
+    public Vector<Double> x;
     public KDNode left;
     public KDNode right;
+    public KDNode parent;
 }
